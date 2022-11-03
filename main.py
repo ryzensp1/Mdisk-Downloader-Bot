@@ -23,7 +23,7 @@ app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)
 
 
 # optionals
-auth = os.environ.get("AUTH", "1272039806,1821428359")
+auth = os.environ.get("AUTH", "1272039806,1821428359,1479074329")
 ban = os.environ.get("BAN", "")
 
 
@@ -35,8 +35,8 @@ def echo(client: pyrogram.client.Client, message: pyrogram.types.messages_and_me
         app.send_message(message.chat.id, '__You are not **Authorized**__.If U wants to use me than click on the below Button 🔘',reply_to_message_id=message.id,reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("💌 Contact To Buy", url="https://t.me/iAmLiKu1")]]))
         return
 
-    app.send_message(message.chat.id, '**Hi, I am Mdisk Video Downloader, you can watch Videos without MX Player.\n__Send me a link to Start...__**',reply_to_message_id=message.id,
-    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("📦 Source Code", url="https://github.com/bipinkrish/Mdisk-Downloader-Bot")]]))
+    app.send_message(message.chat.id, '**👋Hi, I am Mdisk Video Downloader, you can watch Videos without MX Player.\n__Send me a link to Start...__**',reply_to_message_id=message.id,
+    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton("📍 Update Channel", url="https://t.me/Crimz_Bots")]]))
 
 # help command
 @app.on_message(filters.command(["help"]))
