@@ -3,6 +3,6 @@ services:
   workerdisk:
     build: .
     environment:
-      - ID=${ID}
-      - HASH=${HASH}
-      - TOKEN=${TOKEN} 
+      - ID=7460290
+      - HASH=40f25e810b628be54bcb44a58eb8d69e
+      - TOKEN=5522576507:AAGucQOsPmDzYzWqK27Ty2YkvCfqraBRtLU
